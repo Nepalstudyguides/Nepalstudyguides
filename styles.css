@@ -29,18 +29,20 @@ h1{
   font-weight: 200;
 }
 
- nav{
-    display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
-    align-items: center;
- }
+nav{
+  position: sticky;
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
  nav img{
     width: 150px;
  }
  .nav-links{
     flex: 1;
-    text-align: right;
+   text-align:right ; 
+   
   }
   .nav-links ul li{
     list-style: none;
@@ -79,7 +81,7 @@ table{
   width:90%;
 }
 table,tr,th,td{
-  border-color: #e7eaeb;
+  border-color: #15a0ce;
 }
 
 td,th{
@@ -87,12 +89,11 @@ padding: 8px;
 border-width: 0 1px 1px 0;
 }
 table,td,th{
-  border: 0.1px solid rgb(174, 170, 170);
+  border: 0.1px solid rgba(8, 1, 1, 0.582);
 }
 
 
 #english{
-  margin: 0 1rem;
   text-decoration: none;
   color: #1714dd; 
   font-weight: bold;
@@ -102,7 +103,75 @@ table,td,th{
 
 
 
+h2{
+  text-align: center;
+  font-size: xx-large;
+  color: #1714dd;
+}
+
+h4{
+  text-align: center;
+  font-size: 50px;
+  color: #1714dd;
+}
+
+h5{
+  text-align: center;
+  font-size: x-large;
+  color: rgba(0, 0, 0, 0.555);
+}
+
+td{
+  font-size: larger;
+  font-weight: 100;
+}
+
+h6{
+  font-size: xx-large;
+  color: rgba(0, 0, 0, 0.986);
+}
+
+h7{
+  text-align: center;
+  font-size: xx-large;
+  color: blue;
+}
+
+h3{
+  font-size: x-large;
+}
+
+h5{
+  text-align: center;
+  font-size: x-large;
+  color: rgba(0, 0, 0, 0.555);
+}
 
 
+#nepali{
+  text-decoration: none;
+  font-weight: bold;
+  color: #1714dd; 
+  transition: color 0.3s ease, transform 0.3s ease;
+
+}
+
+ a{
+  text-decoration: none;
+  color: white;
+}
+
+a::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+a:hover::after{
+  width: 100%;
+}
 
 
